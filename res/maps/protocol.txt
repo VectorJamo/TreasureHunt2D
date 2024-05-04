@@ -1,0 +1,9 @@
+A WORLD MAP FILE MUST CONSIST OF THE MAP DATA IN THE FOLLOWING FORM:
+
+----------world.txt--------------
+
+map_width map_height
+tile_width tile_height
+		map
+		
+---------------------------------
