@@ -4,6 +4,6 @@ A WORLD MAP FILE MUST CONSIST OF THE MAP DATA IN THE FOLLOWING FORM:
 
 map_width map_height
 tile_width tile_height
-		map
+	   map data
 		
 ---------------------------------

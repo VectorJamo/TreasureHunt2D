@@ -4,6 +4,6 @@
 /**
  * 
  */
-module Ruby2D {
+module TileGameMultiplayer {
 	requires java.desktop;
 }
