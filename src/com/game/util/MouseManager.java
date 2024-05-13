@@ -11,6 +11,8 @@ public class MouseManager implements MouseListener, MouseMotionListener {
 	
 	public static ArrayList<ButtonComponent> buttons = new ArrayList<ButtonComponent>();
 	
+	public static boolean LEFT = false;
+	
 	public static void addButtonToTrack(ButtonComponent button) {
 		buttons.add(button);
 	}
@@ -41,12 +43,12 @@ public class MouseManager implements MouseListener, MouseMotionListener {
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		
+		LEFT = true;
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		
+		LEFT = false;
 	}
 
 	@Override
